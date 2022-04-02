@@ -15,6 +15,8 @@ type RequestType int
 
 const (
 	Log RequestType = 0 + iota
+	RegisterEvent
+	RegisterTask
 )
 
 func (t RequestType) Create(data map[string]interface{}) (Request, error) {
