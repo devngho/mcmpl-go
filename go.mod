@@ -1,3 +1,3 @@
-module github.io/devngho/mcmpl-go
+module github.com/devngho/mcmpl-go
 
 go 1.17
